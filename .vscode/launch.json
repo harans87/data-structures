@@ -1,0 +1,119 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch LinkedList2",
+            "request": "launch",
+            "mainClass": "com.mytrial.LinkedList2",
+            "projectName": "commonItemsInArray_5aa4b6b8"
+        },
+        {
+            "type": "java",
+            "name": "Launch Stack",
+            "request": "launch",
+            "mainClass": "com.mytrial.Stack",
+            "projectName": "commonItemsInArray_5aa4b6b8"
+        },
+        {
+            "type": "java",
+            "name": "Launch Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Launch ConvertFive",
+            "request": "launch",
+            "mainClass": "com.mytrial.ConvertFive",
+            "projectName": "commonItemsInArray_5aa4b6b8"
+        },
+        {
+            "type": "java",
+            "name": "Launch FindSumInArray",
+            "request": "launch",
+            "mainClass": "com.mytrial.FindSumInArray",
+            "projectName": "commonItemsInArray_5aa4b6b8"
+        },
+        {
+            "type": "java",
+            "name": "Launch HashTableDemo",
+            "request": "launch",
+            "mainClass": "com.mytrial.HashTableDemo",
+            "projectName": "commonItemsInArray_5aa4b6b8"
+        },
+        {
+            "type": "java",
+            "name": "Launch LinkedList",
+            "request": "launch",
+            "mainClass": "com.mytrial.LinkedList",
+            "projectName": "commonItemsInArray_5aa4b6b8"
+        },
+        {
+            "type": "java",
+            "name": "Launch MergeSortedArray",
+            "request": "launch",
+            "mainClass": "com.mytrial.MergeSortedArray",
+            "projectName": "commonItemsInArray_5aa4b6b8"
+        },
+        {
+            "type": "java",
+            "name": "Launch MergeSortedArray2",
+            "request": "launch",
+            "mainClass": "com.mytrial.MergeSortedArray2",
+            "projectName": "commonItemsInArray_5aa4b6b8"
+        },
+        {
+            "type": "java",
+            "name": "Launch MorseCodeDecoder",
+            "request": "launch",
+            "mainClass": "com.mytrial.MorseCodeDecoder",
+            "projectName": "commonItemsInArray_5aa4b6b8"
+        },
+        {
+            "type": "java",
+            "name": "Launch MoveZeros",
+            "request": "launch",
+            "mainClass": "com.mytrial.MoveZeros",
+            "projectName": "commonItemsInArray_5aa4b6b8"
+        },
+        {
+            "type": "java",
+            "name": "Launch PrintSubArray",
+            "request": "launch",
+            "mainClass": "com.mytrial.PrintSubArray",
+            "projectName": "commonItemsInArray_5aa4b6b8"
+        },
+        {
+            "type": "java",
+            "name": "Launch ReverseString",
+            "request": "launch",
+            "mainClass": "com.mytrial.ReverseString",
+            "projectName": "commonItemsInArray_5aa4b6b8"
+        },
+        {
+            "type": "java",
+            "name": "Launch ReverseString2",
+            "request": "launch",
+            "mainClass": "com.mytrial.ReverseString2",
+            "projectName": "commonItemsInArray_5aa4b6b8"
+        },
+        {
+            "type": "java",
+            "name": "Launch SortBinaryArray",
+            "request": "launch",
+            "mainClass": "com.mytrial.SortBinaryArray",
+            "projectName": "commonItemsInArray_5aa4b6b8"
+        },
+        {
+            "type": "java",
+            "name": "Launch WordCommonInArrays",
+            "request": "launch",
+            "mainClass": "com.mytrial.WordCommonInArrays",
+            "projectName": "commonItemsInArray_5aa4b6b8"
+        }
+    ]
+}
