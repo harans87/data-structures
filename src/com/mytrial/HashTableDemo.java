@@ -1,8 +1,12 @@
 package com.mytrial;
 
+import java.util.LinkedHashMap;
+
 public class HashTableDemo {
 
     public static void main(String[] args) {
+        LinkedHashMap linkedHashMap = new LinkedHashMap<>();
+        
         MyHashTable<String, String> myHashTable = new MyHashTable<>();
         myHashTable.put("key", "value");
         myHashTable.put("key2", "value2");

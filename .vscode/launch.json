@@ -6,6 +6,48 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch QueueUsingStack",
+            "request": "launch",
+            "mainClass": "com.mytrial.QueueUsingStack",
+            "projectName": "commonItemsInArray_5aa4b6b8"
+        },
+        {
+            "type": "java",
+            "name": "Launch QueueUsingLL",
+            "request": "launch",
+            "mainClass": "com.mytrial.QueueUsingLL",
+            "projectName": "commonItemsInArray_5aa4b6b8"
+        },
+        {
+            "type": "java",
+            "name": "Launch StackUsingArray",
+            "request": "launch",
+            "mainClass": "com.mytrial.StackUsingArray",
+            "projectName": "commonItemsInArray_5aa4b6b8"
+        },
+        {
+            "type": "java",
+            "name": "Launch LinkedListStack",
+            "request": "launch",
+            "mainClass": "com.mytrial.LinkedListStack",
+            "projectName": "commonItemsInArray_5aa4b6b8"
+        },
+        {
+            "type": "java",
+            "name": "Launch FirstRecurring",
+            "request": "launch",
+            "mainClass": "com.mytrial.FirstRecurring",
+            "projectName": "commonItemsInArray_5aa4b6b8"
+        },
+        {
+            "type": "java",
+            "name": "Launch DoublyLinkedList",
+            "request": "launch",
+            "mainClass": "com.mytrial.DoublyLinkedList",
+            "projectName": "commonItemsInArray_5aa4b6b8"
+        },
+        {
+            "type": "java",
             "name": "Launch LinkedList2",
             "request": "launch",
             "mainClass": "com.mytrial.LinkedList2",
