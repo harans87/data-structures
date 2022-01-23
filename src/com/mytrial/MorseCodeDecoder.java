@@ -8,7 +8,7 @@ public class MorseCodeDecoder {
         String[] words = morseCode.split("\\s\\s\\s");
 
         for (String word: words) {
-            stringBuilder.append(MorseCode.get(word));
+            // stringBuilder.append(MorseCode.get(word));
         }
 
        

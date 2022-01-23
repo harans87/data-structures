@@ -15,9 +15,9 @@ public class MergeSortedArray2 {
         int array1Item = array1[0];
         int array2Item = array2[0];
 
-        do {
+        // do {
 
-        } while()
+        // } while()
     }
     
 }

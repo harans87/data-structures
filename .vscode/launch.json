@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch MyArray",
+            "request": "launch",
+            "mainClass": "com.mytrial.MyArray",
+            "projectName": "data-structures_fc1f7958"
+        },
+        {
+            "type": "java",
+            "name": "Launch BinarySearchTree",
+            "request": "launch",
+            "mainClass": "com.mytrial.BinarySearchTree",
+            "projectName": "data-structures_fc1f7958"
+        },
+        {
+            "type": "java",
             "name": "Launch BinarySearchTree",
             "request": "launch",
             "mainClass": "com.mytrial.BinarySearchTree",
