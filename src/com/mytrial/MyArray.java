@@ -1,6 +1,8 @@
 package com.mytrial;
 
 import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.stream.IntStream;
 
 public class MyArray {
 
@@ -40,7 +42,7 @@ public class MyArray {
     }
 
     void print() {
-        for (int i = 0; i < currentIndex; i++) {
+        for (int i = 0; i < table.length; i++) {
             System.out.println(table[i]);
         }
     }
@@ -69,6 +71,11 @@ public class MyArray {
         return largest;
     }
 
+    int maxUsingStream() {
+        return Arrays.stream(table)
+        .max().getAsInt();
+    }
+
     MyArray intersect(MyArray anotherArray) {
         MyArray commonArray = new MyArray();
         if (currentIndex > 0) {
@@ -94,6 +101,25 @@ public class MyArray {
             temp[j++] = table[i];
         }
         table = temp;
+    }
+
+    void reverseArrWithoutExtra() {
+        // time - O (log n)
+        // space - O(1)
+        int lastIndex = table.length - 1;
+        int temp;
+        for (int i=0;i<table.length / 2;i++) {
+            temp = table[i];
+            table[i] = table[lastIndex];
+            table[lastIndex] = temp;
+            lastIndex--;
+        }
+    }
+
+    //NOT WORKING
+    void reverseUsingJava8() {
+        IntStream.rangeClosed(1, table.length)
+        .mapToObj(i -> table[table.length - i]);
     }
 
     void insertAt(int item, int index) {
@@ -151,6 +177,15 @@ public class MyArray {
         // numbers.print();
         numbers.insertAt(10, 2);
         numbers.print();
+        System.out.println("After reversing");
+        numbers.reverseArrWithoutExtra();
+        numbers.print();
+        System.out.println("before reversing using Java 8");
+        numbers.print();
+        System.out.println("After reversing using Java 8");
+        numbers.reverseUsingJava8();
+        numbers.print();
+        System.out.println("Maximum element using stream: "+numbers.maxUsingStream());
 
     }
 }
